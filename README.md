@@ -81,14 +81,13 @@ Exemple : 17 rue de l'église, 23300 Fenioux
 - CP_result : code postal
 - Ville_result : nom de la commune
 - Type_result : type de résultat trouvé
-    - housenumber : numéro "à la plaque"
-    - street : position "à la voie", placé approximativement au centre de celle-ci
-    - place : lieu-dit
-    - village : numéro "à la commune" dans un village
-    - city : numéro "à la commune" dans une grande ville
-    - town : numéro "à la commune" dans une ville moyenne
-    - town : numéro "à la commune" dans une ville moyenne
-- Score_result : valeur de 0 à 1 indiquant la pertinence du résultat
+    * housenumber : numéro "à la plaque"
+    * street : position "à la voie", placé approximativement au centre de celle-ci
+    * place : lieu-dit
+    * village : numéro "à la commune" dans un village
+    * city : numéro "à la commune" dans une grande ville
+    * town : numéro "à la commune" dans une ville moyenne
+    * Score_result : valeur de 0 à 1 indiquant la pertinence du résultat
 
 ![alt tag](https://raw.githubusercontent.com/VinceLYO/TEST/master/Capture_2.JPG)
 
