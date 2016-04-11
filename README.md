@@ -5,10 +5,11 @@ Ce nœud vous permettra de géocoder des adresses en France, en utilisant l'API 
 
 Aucune limite journalière, le nombre de requêtes est illimité.
 ### Esprit :
-Aller récupérer les résultats rendus par l'url : http://api-adresse.data.gouv.fr/search/?q=MonAdresse
-Étape 1 : 
-
-
+Aller récupérer les résultats rendus par l'url : http://api-adresse.data.gouv.fr/search/?q=<b>Mon Adresse</b>
+###### Étape 1 : Transformer ses adresses ' ' ==> %20
+###### Étape 2 : Récupérer le [résultat](http://api-adresse.data.gouv.fr/search/?q=8%20bd%20du%20port) sous format .json
+###### Étape 3 : Parser le .json pour en extraire le résultat
+###### Étape 4 : Restituer les résultats dans Modeler
 
 ###Pré-requis :
 - SPSS Modeler 17 ou plus
@@ -47,4 +48,3 @@ Exemple : 17 rue de l'église, 23300 Fenioux
 [Bitops](https://cran.r-project.org/web/packages/bitops/index.html)  
 [RCurl](https://cran.r-project.org/web/packages/RCurl/index.html)  
 
-#
