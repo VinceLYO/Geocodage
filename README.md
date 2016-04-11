@@ -22,17 +22,21 @@ Récupération des résultats rendus par l'url : http://api-adresse.data.gouv.fr
     }
 ```
 
-###### Étape 2 : Récupérer les [résultats](http://api-adresse.data.gouv.fr/search/?q=17%20rue%20de%20la%20Mairie%2011300%20Limoux) sous format .json
+###### Étape 2 : Récupérer les [résultats](http://api-adresse.data.gouv.fr/search/?q=17%20rue%20de%20la%20Mairie%2011300%20Limoux) sous format .json , puis mise en forme.
 
 ```R
-u <- url(address)
-doc <- getURL(u)
-```
-
-###### Étape 3 : Parser le .json pour en extraire le résultat
-
-```R
-      x <- fromJSON(doc)
+geoCode <- function(address,verbose=FALSE) {
+  library(jsonlite)
+  if(verbose) cat(address,"\n")
+  u <- url(address)
+  doc <- getURL(u)
+  if (doc != "Missing query") { # Cas où pas de résultat
+    x <- fromJSON(doc)
+    if(is.null(dim(x$features)) == FALSE) {  # Cas où le code INSEE est indéterminé
+      coord <- x$features[1,]$geometry$coordinates
+      if ("citycode" %in% colnames(x$features$properties) == TRUE) {
+        INSEE <- x$features[1,]$properties["citycode"]
+      } else {INSEE <- "NA"}
       Adresse <- x$features[1,]$properties["name"]
       Score <- x$features[1,]$properties["score"]
       Ville <- x$features[1,]$properties["city"]
@@ -46,9 +50,12 @@ doc <- getURL(u)
                         Ville,
                         Type,
                         Score))}
+    else {return(data.frame(NA,NA,NA,NA,NA,NA,NA,NA))}}
+  else {return(data.frame(NA,NA,NA,NA,NA,NA,NA,NA))}
+}
 ```
 
-###### Étape 4 : Restituer les résultats dans Modeler
+###### Étape 3 : Restituer les résultats dans Modeler
 
 ```R
 modelerData<-cbind(modelerData,results$lat)
