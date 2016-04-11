@@ -84,7 +84,7 @@ Lecture du champ "Adresses" qui contient :
 
 Exemple : 17 rue de l'église, 23300 Fenioux
 
-![alt tag](https://raw.githubusercontent.com/VinceLYO/TEST/master/Capture_1.JPG)
+![alt tag]()
 
 ###Sorties :
 - Latitude_result
@@ -106,7 +106,12 @@ Exemple : 17 rue de l'église, 23300 Fenioux
 ###Installation
 
 ####R Packages :
-    - [Jsonlite](https://cran.r-project.org/web/packages/jsonlite/index.html)  
-    - [Bitops](https://cran.r-project.org/web/packages/bitops/index.html)  
-    - [RCurl](https://cran.r-project.org/web/packages/RCurl/index.html)  
+######1 - Installer les packages suivant dans l'environnement 3.1 de R
+- [Jsonlite](https://cran.r-project.org/web/packages/jsonlite/index.html)  
+- [Bitops](https://cran.r-project.org/web/packages/bitops/index.html)  
+- [RCurl](https://cran.r-project.org/web/packages/RCurl/index.html)  
+
+######2- Installer le noeud directement dans modeler
+Si vous êtes en version 17 installez le .cfd disponible [ici](https://raw.githubusercontent.com/downloads/VinceLYO/TEST/blob/master/GeocodageDataGouv.cfd)   
+Si vous êtes en version 18 , installez la .mpe disponible [ici](https://github.com/VinceLYO/TEST/blob/master/Geocodage_DataGouv.mpe)  
 
