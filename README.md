@@ -104,8 +104,9 @@ Exemple : 17 rue de l'église, 23300 Fenioux
 ![alt tag](https://raw.githubusercontent.com/VinceLYO/TEST/master/Capture_2.JPG)
 
 ###Installation
-    ####R Packages :
-[Jsonlite](https://cran.r-project.org/web/packages/jsonlite/index.html)  
-[Bitops](https://cran.r-project.org/web/packages/bitops/index.html)  
-[RCurl](https://cran.r-project.org/web/packages/RCurl/index.html)  
+
+####R Packages :
+    - [Jsonlite](https://cran.r-project.org/web/packages/jsonlite/index.html)  
+    - [Bitops](https://cran.r-project.org/web/packages/bitops/index.html)  
+    - [RCurl](https://cran.r-project.org/web/packages/RCurl/index.html)  
 
