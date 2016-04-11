@@ -4,12 +4,58 @@
 Ce nœud vous permettra de géocoder des adresses en France, en utilisant l'API de la Base Adresse Nationale, fruit de la collaboration de l'IGN / La Poste / Open street Map et les services de l'état : http://adresse.data.gouv.fr/api/
 
 Aucune limite journalière, le nombre de requêtes est illimité.
-### Esprit :
-Aller récupérer les résultats rendus par l'url : http://api-adresse.data.gouv.fr/search/?q=<b>Mon Adresse</b>
-###### Étape 1 : Transformer ses adresses ' ' ==> %20
-###### Étape 2 : Récupérer le [résultat](http://api-adresse.data.gouv.fr/search/?q=8%20bd%20du%20port) sous format .json
+### Fonctionnement :
+
+Récupération des résultats rendus par l'url : http://api-adresse.data.gouv.fr/search/?q=<b>Mon Adresse</b>
+
+###### Étape 1 : Transformer les adresses en requêtes url :
+
+```R
+    url <- function(address,return.call = "json") {
+    library(RCurl)
+    root <- "http://api-adresse.data.gouv.fr/search/"
+    u <- paste(root, "?q=", address, sep = "")
+    return(gsub(' ','%20',u))
+    }
+```
+
+###### Étape 2 : Récupérer les [résultats](http://api-adresse.data.gouv.fr/search/?q=8%20bd%20du%20port) sous format .json
+
+```R
+u <- url(address)
+doc <- getURL(u)
+```
+
 ###### Étape 3 : Parser le .json pour en extraire le résultat
+
+```R
+      x <- fromJSON(doc)
+      Adresse <- x$features[1,]$properties["name"]
+      Score <- x$features[1,]$properties["score"]
+      Ville <- x$features[1,]$properties["city"]
+      Type <- x$features[1,]$properties["type"]
+      CP <- x$features[1,]$properties["postcode"]
+      return(data.frame(lat = as.data.frame(coord)[2,1],
+                        long = as.data.frame(coord)[1,1],
+                        INSEE,
+                        Adresse,
+                        CP,
+                        Ville,
+                        Type,
+                        Score))}
+```
+
 ###### Étape 4 : Restituer les résultats dans Modeler
+
+```R
+modelerData<-cbind(modelerData,results$lat)
+var1<-c(fieldName="Latitude_result",fieldLabel="",fieldStorage="string",fieldFormat="",fieldMeasure="",  fieldRole="")
+modelerDataModel<-data.frame(modelerDataModel,var1)
+
+modelerData<-cbind(modelerData,results$long)
+var2<-c(fieldName="Longitude_result",fieldLabel="",fieldStorage="string",fieldFormat="",fieldMeasure="",  fieldRole="")
+modelerDataModel<-data.frame(modelerDataModel,var2)
+```
 
 ###Pré-requis :
 - SPSS Modeler 17 ou plus
