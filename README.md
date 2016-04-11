@@ -7,7 +7,9 @@ Aucune limite journalière, le nombre de requêtes est illimité.
 
 ### Fonctionnement :
 
-Récupération des résultats rendus par l'url : http://api-adresse.data.gouv.fr/search/?q=<b>Adresse</b>
+Récupération des résultats rendus par l'url : http://api-adresse.data.gouv.fr/search/?q=<b>Mon Adresse</b>  
+    - Avant traitement : <b>Mon Adresse</b> = 17 rue de la Mairie 11300 Limoux  
+    - Après traitement : <b>Mon Adresse</b> = 17%20rue%20de%20la%20Mairie%2011300%20Limoux  
 
 ###### Étape 1 : Transformer les adresses en requêtes url :
 
@@ -20,7 +22,7 @@ Récupération des résultats rendus par l'url : http://api-adresse.data.gouv.fr
     }
 ```
 
-###### Étape 2 : Récupérer les [résultats](http://api-adresse.data.gouv.fr/search/?q=8%20bd%20du%20port) sous format .json
+###### Étape 2 : Récupérer les [résultats](http://api-adresse.data.gouv.fr/search/?q=17%20rue%20de%20la%20Mairie%2011300%20Limoux) sous format .json
 
 ```R
 u <- url(address)
@@ -91,7 +93,8 @@ Exemple : 17 rue de l'église, 23300 Fenioux
 
 ![alt tag](https://raw.githubusercontent.com/VinceLYO/TEST/master/Capture_2.JPG)
 
-###R Packages :
+###Installation
+    ####R Packages :
 [Jsonlite](https://cran.r-project.org/web/packages/jsonlite/index.html)  
 [Bitops](https://cran.r-project.org/web/packages/bitops/index.html)  
 [RCurl](https://cran.r-project.org/web/packages/RCurl/index.html)  
