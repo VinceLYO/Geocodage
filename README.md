@@ -7,7 +7,7 @@ Aucune limite journalière, le nombre de requêtes est illimité.
 
 ### Fonctionnement :
 
-Récupération des résultats rendus par l'url : http://api-adresse.data.gouv.fr/search/?q=<b>Mes Adresses</b>
+Récupération des résultats rendus par l'url : http://api-adresse.data.gouv.fr/search/?q=<b>Adresse</b>
 
 ###### Étape 1 : Transformer les adresses en requêtes url :
 
