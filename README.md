@@ -30,13 +30,16 @@ geoCode <- function(address,verbose=FALSE) {
   if(verbose) cat(address,"\n")
   u <- url(address)
   doc <- getURL(u)
-  if (doc != "Missing query") { # Cas où pas de résultat
+  #### Cas où pas de résultat ####
+  if (doc != "Missing query") {
     x <- fromJSON(doc)
-    if(is.null(dim(x$features)) == FALSE) {  # Cas où le code INSEE est indéterminé
+    #### Cas où le code INSEE ne peut être déterminé ####
+    if(is.null(dim(x$features)) == FALSE) {
       coord <- x$features[1,]$geometry$coordinates
       if ("citycode" %in% colnames(x$features$properties) == TRUE) {
         INSEE <- x$features[1,]$properties["citycode"]
       } else {INSEE <- "NA"}
+      #### Récupération des résultats du .json ####
       Adresse <- x$features[1,]$properties["name"]
       Score <- x$features[1,]$properties["score"]
       Ville <- x$features[1,]$properties["city"]
