@@ -66,9 +66,19 @@ geoCode <- function(address,verbose=FALSE) {
 }
 ```
 
-###### Étape 3 : Restitution des résultats dans Modeler
+###### Étape 3 : Application de la fonction et restitution des résultats dans Modeler
 
 ```R
+add <- modelerData$%%adresse%%
+
+results<-data.frame(matrix(NA,ncol = 8,nrow=length(add)))
+for (i in 1:length(add)) {
+  results[i,] <-  geoCode(add[i])
+  print(i)
+}
+
+names(results) <- c("lat","long","INSEE","Adresse","CP","Ville","Type","Score")
+
 modelerData<-cbind(modelerData,results$lat)
 var1<-c(fieldName="Latitude_result",fieldLabel="",fieldStorage="string",fieldFormat="",fieldMeasure="",  fieldRole="")
 modelerDataModel<-data.frame(modelerDataModel,var1)
