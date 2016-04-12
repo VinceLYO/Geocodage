@@ -4,7 +4,7 @@
 <a href="url"><img src= "https://raw.githubusercontent.com/VinceLYO/Geocodage/master/spss.png" align="center" height="40" width="120" ></a>  
 
 ###Desciption :
-Ce nœud vous permettra de géocoder des adresses en France, en utilisant l'API de la Base Adresse Nationale, résultat de la collaboration de l'IGN / La Poste / Open Street Map et des services de l'état : http://adresse.data.gouv.fr/api/
+Ce nœud vous permettra de géocoder des adresses <b>en France</b>, en utilisant l'API de la Base Adresse Nationale, résultat de la collaboration de La Poste / L'IGN / Open Street Map et des services de l'état : http://adresse.data.gouv.fr/api/
 
 <a href="url"><img src= "https://raw.githubusercontent.com/VinceLYO/Geocodage/master/Logo-laposte.png" align="left" height="48" width="56" ></a>
 <a href="url"><img src= "https://raw.githubusercontent.com/VinceLYO/Geocodage/master/IGN_logo_2012.png" align="left" height="48" width="56" ></a>
