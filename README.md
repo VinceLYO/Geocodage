@@ -1,14 +1,14 @@
 # Géocodage d'adresses en France avec R et SPSS MODELER
 <a href="url"><img src= "https://raw.githubusercontent.com/VinceLYO/Geocodage/master/Rlogo.png" align="center" height="45" width="55" ></a>
 <a href="url"><img src= "https://raw.githubusercontent.com/VinceLYO/Geocodage/master/optima.gif" align="center" height="20" width="20" ></a>
-<a href="url"><img src= "https://raw.githubusercontent.com/VinceLYO/Geocodage/master/spss.png" align="center" height="40" width="110" ></a>  
+<a href="url"><img src= "https://raw.githubusercontent.com/VinceLYO/Geocodage/master/spss.png" align="center" height="40" width="120" ></a>  
 
 ###Desciption :
 Ce nœud vous permettra de géocoder des adresses en France, en utilisant l'API de la Base Adresse Nationale, résultat de la collaboration de l'IGN / La Poste / Open Street Map et des services de l'état : http://adresse.data.gouv.fr/api/
 
 <a href="url"><img src= "https://raw.githubusercontent.com/VinceLYO/Geocodage/master/Logo-laposte.png" align="left" height="48" width="56" ></a>
 <a href="url"><img src= "https://raw.githubusercontent.com/VinceLYO/Geocodage/master/IGN_logo_2012.png" align="left" height="48" width="56" ></a>
-<a href="url"><img src= "https://raw.githubusercontent.com/VinceLYO/Geocodage/master/OSM.JPG" align="left" height="48" width="90" ></a>
+<a href="url"><img src= "https://raw.githubusercontent.com/VinceLYO/Geocodage/master/OSM.JPG" align="left" height="48" width="100" ></a>
 <a href="url"><img src= "https://raw.githubusercontent.com/VinceLYO/Geocodage/master/logo-de-la-republique-francaise.png" align="left" height="48" width="75" ></a>  
 :+1:    ```Aucune limite journalière, le nombre de requêtes est illimité```
     
@@ -81,7 +81,7 @@ modelerDataModel<-data.frame(modelerDataModel,var2)
 ###Pré-requis :
 - SPSS Modeler 17 ou plus
 - IBM SPSS Modeler 'R Essentials' Plugin
-- R 3.1
+- R 3.1 / R 3.2
 
 ###Interface
 Lecture du champ "Adresses" qui contient :
@@ -111,10 +111,14 @@ Exemple : 17 rue de la Mairie 11300 Limoux
 
 ![alt tag](https://raw.githubusercontent.com/VinceLYO/TEST/master/Capture_2.JPG)
 
-###Installation 
+###Installation & pré-requis
 
-####R Packages :
-######1 - Installer les packages suivant dans l'environnement 3.1 de R
+- SPSS Modeler 17 ou plus
+- IBM SPSS Modeler 'R Essentials' Plugin
+- R 3.1 / R 3.2
+
+#####R Packages :
+######1 - Installer les packages suivant dans l'environnement 3.1 ou 3.2 de R
 - [Jsonlite](https://cran.r-project.org/web/packages/jsonlite/index.html)  
 - [Bitops](https://cran.r-project.org/web/packages/bitops/index.html)  
 - [RCurl](https://cran.r-project.org/web/packages/RCurl/index.html)  
