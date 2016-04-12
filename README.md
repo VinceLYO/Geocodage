@@ -82,7 +82,7 @@ Lecture du champ "Adresses" qui contient :
 - le Code Postal
 - La ville  
 
-Exemple : 17 rue de l'église, 23300 Fenioux
+Exemple : 17 rue de la Mairie 11300 Limoux
 
 ![alt tag](https://raw.githubusercontent.com/VinceLYO/TEST/master/Capture_1.JPG)
 
