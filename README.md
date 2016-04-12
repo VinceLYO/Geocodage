@@ -19,7 +19,7 @@ Récupération des résultats rendus par l'url : http://api-adresse.data.gouv.fr
     - Avant traitement : <b>Mon Adresse</b> = 17 rue de la Mairie 11300 Limoux  
     - Après traitement : <b>Mon Adresse</b> = 17%20rue%20de%20la%20Mairie%2011300%20Limoux  
 
-###### Étape 1 : Transformer les adresses en requêtes url :
+###### Étape 1 : Transformation les adresses en requêtes url :
 
 ```R
     url <- function(address,return.call = "json") {
@@ -30,7 +30,7 @@ Récupération des résultats rendus par l'url : http://api-adresse.data.gouv.fr
     }
 ```
 
-###### Étape 2 : Récupérer les [résultats](http://api-adresse.data.gouv.fr/search/?q=17%20rue%20de%20la%20Mairie%2011300%20Limoux) sous format .json , puis mise en forme.
+###### Étape 2 : Récupération des [résultats](http://api-adresse.data.gouv.fr/search/?q=17%20rue%20de%20la%20Mairie%2011300%20Limoux) sous format .json , puis mise en forme.
 
 ```R
 geoCode <- function(address,verbose=FALSE) {
@@ -66,7 +66,7 @@ geoCode <- function(address,verbose=FALSE) {
 }
 ```
 
-###### Étape 3 : Restituer les résultats dans Modeler
+###### Étape 3 : Restitution des résultats dans Modeler
 
 ```R
 modelerData<-cbind(modelerData,results$lat)
