@@ -6,10 +6,10 @@ Ce nœud vous permettra de géocoder des adresses en France, en utilisant l'API 
 <a href="url"><img src= "https://raw.githubusercontent.com/VinceLYO/Geocodage/master/Logo-laposte.png" align="left" height="48" width="56" ></a>
 <a href="url"><img src= "https://raw.githubusercontent.com/VinceLYO/Geocodage/master/IGN_logo_2012.png" align="left" height="48" width="56" ></a>
 <a href="url"><img src= "https://raw.githubusercontent.com/VinceLYO/Geocodage/master/OSM.JPG" align="left" height="48" width="90" ></a>
-<a href="url"><img src= "https://raw.githubusercontent.com/VinceLYO/Geocodage/master/logo-de-la-republique-francaise.png" align="left" height="48" width="70" ></a>  
+<a href="url"><img src= "https://raw.githubusercontent.com/VinceLYO/Geocodage/master/logo-de-la-republique-francaise.png" align="left" height="48" width="75" ></a>  
     :+1:    ```Aucune limite journalière, le nombre de requêtes est illimité```
 
-### Fonctionnement :
+### Fonctionnement (Pour les curieux) :
 
 Récupération des résultats rendus par l'url : http://api-adresse.data.gouv.fr/search/?q=<b>Mon Adresse</b>  
     - Avant traitement : <b>Mon Adresse</b> = 17 rue de la Mairie 11300 Limoux  
