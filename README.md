@@ -1,4 +1,4 @@
-# Géocodage d'adresses en France avec R et SPSS MODELER
+# Géocodage d'adresses en France avec R et SPSS Modeler
 <a href="url"><img src= "https://raw.githubusercontent.com/VinceLYO/Geocodage/master/Rlogo.png" align="center" height="45" width="55" ></a>
 <a href="url"><img src= "https://raw.githubusercontent.com/VinceLYO/Geocodage/master/optima.gif" align="center" height="20" width="20" ></a>
 <a href="url"><img src= "https://raw.githubusercontent.com/VinceLYO/Geocodage/master/spss.png" align="center" height="40" width="120" ></a>  
