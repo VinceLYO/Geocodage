@@ -87,12 +87,6 @@ modelerData<-cbind(modelerData,results$long)
 var2<-c(fieldName="Longitude_result",fieldLabel="",fieldStorage="string",fieldFormat="",fieldMeasure="",  fieldRole="")
 modelerDataModel<-data.frame(modelerDataModel,var2)
 ```
-
-###Pré-requis :
-- SPSS Modeler 17 ou plus
-- IBM SPSS Modeler 'R Essentials' Plugin
-- R 3.1 / R 3.2
-
 ###Interface
 Lecture du champ "Adresses" qui contient :
 - Le numéro de voie
