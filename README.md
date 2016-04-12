@@ -69,7 +69,7 @@ geoCode <- function(address,verbose=FALSE) {
 ###### Étape 3 : Application de la fonction et restitution des résultats dans Modeler
 
 ```R
-add <- modelerData$%%adresse%%
+add <- modelerData$%%adresse%% #Chargement des données de l'indentificateur
 
 results<-data.frame(matrix(NA,ncol = 8,nrow=length(add)))
 for (i in 1:length(add)) {
