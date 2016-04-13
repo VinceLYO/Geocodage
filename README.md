@@ -130,4 +130,4 @@ Exemple : 17 rue de la Mairie 11300 Limoux
 ######2- Installer le noeud directement dans modeler
 Si vous êtes en version 17/17.1 installez le <b>.cfd</b> disponible en téléchargement [ici](https://github.com/VinceLYO/TEST/blob/master/GeocodageDataGouv.cfd?raw=true)   
 Si vous êtes en version 18 , installez le <b>.mpe</b> disponible en téléchargement [ici](https://github.com/VinceLYO/TEST/blob/master/Geocodage_DataGouv.mpe?raw=true)  
-
+Code R brut disponible [ici](https://raw.githubusercontent.com/VinceLYO/Geocodage/master/R%20DataGouv%20MODELER.r)
