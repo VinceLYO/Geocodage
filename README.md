@@ -14,6 +14,7 @@ Ce nœud vous permettra de géocoder des adresses <b>en France</b>, en utilisant
     
     
 ### Fonctionnement (Pour les curieux) :
+[Installation](#installation)
 
 Récupération des résultats rendus par l'url : http://api-adresse.data.gouv.fr/search/?q=<b>Mon Adresse</b>  
     - Avant traitement : <b>Mon Adresse</b> = 17 rue de la Mairie 11300 Limoux  
@@ -115,7 +116,7 @@ Exemple : 17 rue de la Mairie 11300 Limoux
 
 ![alt tag](https://raw.githubusercontent.com/VinceLYO/TEST/master/Capture_2.JPG)
 
-###Installation & pré-requis
+###Installation
 
 - SPSS Modeler 17 ou plus
 - IBM SPSS Modeler 'R Essentials' Plugin
