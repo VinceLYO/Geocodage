@@ -13,8 +13,7 @@ Ce nœud vous permettra de géocoder des adresses <b>en France</b>, en utilisant
     :+1:    ```Aucune limite journalière, le nombre de requêtes est illimité```
     
     
-### Fonctionnement (Pour les curieux) :
-[Installation](#installation)
+### Fonctionnement (Pour les curieux , pour les autres, c'est par [ici](#installation))
 
 Récupération des résultats rendus par l'url : http://api-adresse.data.gouv.fr/search/?q=<b>Mon Adresse</b>  
     - Avant traitement : <b>Mon Adresse</b> = 17 rue de la Mairie 11300 Limoux  
