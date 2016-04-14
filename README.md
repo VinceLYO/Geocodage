@@ -96,7 +96,7 @@ Lecture du champ "Adresses" qui contient :
 
 Exemple : 17 rue de la Mairie 11300 Limoux
 
-![alt tag](https://raw.githubusercontent.com/VinceLYO/TEST/master/Capture_1.JPG)
+![alt tag](https://raw.githubusercontent.com/VinceLYO/TEST/master/Files/Capture_1.JPG)
 
 ###Sorties :
 - Latitude_result
@@ -113,7 +113,7 @@ Exemple : 17 rue de la Mairie 11300 Limoux
     * town : numéro "à la commune" dans une ville moyenne
     * Score_result : valeur de 0 à 1 indiquant la pertinence du résultat
 
-![alt tag](https://raw.githubusercontent.com/VinceLYO/TEST/master/Capture_2.JPG)
+![alt tag](https://raw.githubusercontent.com/VinceLYO/TEST/master/Files/Capture_2.JPG)
 
 ###Installation
 
