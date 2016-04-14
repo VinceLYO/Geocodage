@@ -12,7 +12,10 @@ Ce nœud vous permettra de géocoder des adresses <b>en France</b>, en utilisant
 <a href="url"><img src= "https://raw.githubusercontent.com/VinceLYO/Geocodage/master/Files/logo-de-la-republique-francaise.png" align="left" height="48" width="80" ></a>  
     :+1:    ```Aucune limite journalière, le nombre de requêtes est illimité```
     
-    
+
+![alt tag](https://raw.githubusercontent.com/VinceLYO/Geocodage/master/Files/Animation.gif)
+
+
 ### Fonctionnement (Pour les curieux , pour les autres, c'est par [ici](#installation))
 
 Récupération des résultats rendus par l'url : http://api-adresse.data.gouv.fr/search/?q=<b>Mon Adresse</b>  
