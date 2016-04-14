@@ -1,15 +1,15 @@
 # Géocodage d'adresses en France avec R et SPSS Modeler
-<a href="url"><img src= "https://raw.githubusercontent.com/VinceLYO/Geocodage/master/Rlogo.png" align="center" height="45" width="55" ></a>
-<a href="url"><img src= "https://raw.githubusercontent.com/VinceLYO/Geocodage/master/optima.gif" align="center" height="20" width="20" ></a>
-<a href="url"><img src= "https://raw.githubusercontent.com/VinceLYO/Geocodage/master/spss.png" align="center" height="40" width="120" ></a>  
+<a href="url"><img src= "https://raw.githubusercontent.com/VinceLYO/Geocodage/master/Files/Rlogo.png" align="center" height="45" width="55" ></a>
+<a href="url"><img src= "https://raw.githubusercontent.com/VinceLYO/Geocodage/master/Files/optima.gif" align="center" height="20" width="20" ></a>
+<a href="url"><img src= "https://raw.githubusercontent.com/VinceLYO/Geocodage/master/Files/spss.png" align="center" height="40" width="120" ></a>  
 
 ###Desciption :
 Ce nœud vous permettra de géocoder des adresses <b>en France</b>, en utilisant l'API de la Base Adresse Nationale, résultat de la collaboration de La Poste / L'IGN / Open Street Map et des services de l'état : http://adresse.data.gouv.fr/api/
 
-<a href="url"><img src= "https://raw.githubusercontent.com/VinceLYO/Geocodage/master/Logo-laposte.png" align="left" height="48" width="65" ></a>
-<a href="url"><img src= "https://raw.githubusercontent.com/VinceLYO/Geocodage/master/IGN_logo_2012.png" align="left" height="48" width="56" ></a>
-<a href="url"><img src= "https://raw.githubusercontent.com/VinceLYO/Geocodage/master/OSM.JPG" align="left" height="48" width="100" ></a>
-<a href="url"><img src= "https://raw.githubusercontent.com/VinceLYO/Geocodage/master/logo-de-la-republique-francaise.png" align="left" height="48" width="80" ></a>  
+<a href="url"><img src= "https://raw.githubusercontent.com/VinceLYO/Geocodage/master/Files/Logo-laposte.png" align="left" height="48" width="65" ></a>
+<a href="url"><img src= "https://raw.githubusercontent.com/VinceLYO/Geocodage/master/Files/IGN_logo_2012.png" align="left" height="48" width="56" ></a>
+<a href="url"><img src= "https://raw.githubusercontent.com/VinceLYO/Geocodage/master/Files/OSM.JPG" align="left" height="48" width="100" ></a>
+<a href="url"><img src= "https://raw.githubusercontent.com/VinceLYO/Geocodage/master/Files/logo-de-la-republique-francaise.png" align="left" height="48" width="80" ></a>  
     :+1:    ```Aucune limite journalière, le nombre de requêtes est illimité```
     
     
