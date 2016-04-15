@@ -104,6 +104,7 @@ Exemple : 17 rue de la Mairie 11300 Limoux
 ![alt tag](https://raw.githubusercontent.com/VinceLYO/TEST/master/Files/Capture_1.JPG)
 
 ###Sorties :
+![alt tag](https://raw.githubusercontent.com/VinceLYO/Geocodage/master/Files/Capture_3.JPG)  
 - Latitude_result
 - Longitude_result
 - INSEE_result : code INSEE de la commune
