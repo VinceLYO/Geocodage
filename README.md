@@ -136,6 +136,6 @@ Si vous êtes en version 18 , installez le <b>.mpe</b> disponible en télécharg
 Code R brut disponible [ici](https://raw.githubusercontent.com/VinceLYO/Geocodage/master/R%20DataGouv%20MODELER.r)
 
 ###Outils :
-- R Studio
-- IBM SPSS Modeler
-- ScreenToGif
+####- [R Studio](https://www.rstudio.com/)
+####- [IBM SPSS Modeler](http://www-03.ibm.com/software/products/fr/spss-modeler)
+####- [ScreenToGif](http://screentogif.codeplex.com/) <- :heart:
