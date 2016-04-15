@@ -99,7 +99,7 @@ Lecture du champ "Adresses" qui contient :
 
 Exemple : 17 rue de la Mairie 11300 Limoux
 
-![alt tag](https://raw.githubusercontent.com/VinceLYO/TEST/master/Files/Capture_1bis.JPG)
+![alt tag](https://raw.githubusercontent.com/VinceLYO/TEST/master/Files/Capture_1.JPG)
 
 ###Sorties :
 - Latitude_result
