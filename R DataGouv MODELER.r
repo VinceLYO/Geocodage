@@ -2,17 +2,19 @@ t1 <- Sys.time()
 
 add <- modelerData$%%adresse%%
 
+#Transformation de l'url
 url <- function(address,return.call = "json") {
   library(RCurl)
   root <- "http://api-adresse.data.gouv.fr/search/"
   u <- paste(root, "?q=", address, sep = "")
   return(gsub(' ','%20',u))
 }
+#Fonction de geocodage
 geoCode <- function(address,verbose=FALSE) {
   library(jsonlite)
   if(verbose) cat(address,"\n")
-  u <- url(address)
-  doc <- getURL(u)
+  u <- url(address) #Transformation en url grace à la fonction url
+  doc <- getURL(u) #Recuperation de l'url
   if (doc != "Missing query") {
     x <- fromJSON(doc)
     if(is.null(dim(x$features)) == FALSE) {
@@ -36,7 +38,7 @@ geoCode <- function(address,verbose=FALSE) {
     else {return(data.frame(NA,NA,NA,NA,NA,NA,NA,NA))}}
   else {return(data.frame(NA,NA,NA,NA,NA,NA,NA,NA))}
 }
-
+#Application de la fonction de geocodage à toute la base
 results<-data.frame(matrix(NA,ncol= 8,nrow=length(add)))
 for (i in 1:length(add)) {
   results[i,] <-  geoCode(add[i])
@@ -45,6 +47,7 @@ for (i in 1:length(add)) {
 
 names(results) <- c("lat","long","INSEE","Adresse","CP","Ville","Type","Score")
 
+#Creation des colonnes dans modeler
 modelerData<-cbind(modelerData,results$lat)
 var1<-c(fieldName="Latitude_result",fieldLabel="",fieldStorage="string",fieldFormat="",fieldMeasure="",  fieldRole="")
 modelerDataModel<-data.frame(modelerDataModel,var1)
