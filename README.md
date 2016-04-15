@@ -121,8 +121,8 @@ Exemple : 17 rue de la Mairie 11300 Limoux
 ###Installation
 
 - SPSS Modeler 17 ou plus
-- IBM SPSS Modeler 'R Essentials' Plugin
-- R 3.1 / R 3.2
+- [IBM SPSS Modeler 'R Essentials' Plugin](https://developer.ibm.com/predictiveanalytics/downloads/)
+- [R 3.1 / R 3.2](https://developer.ibm.com/predictiveanalytics/downloads/)
 
 #####R Packages :
 ######1 - Installer les packages suivant dans l'environnement 3.1 ou 3.2 de R
