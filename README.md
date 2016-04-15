@@ -138,4 +138,4 @@ Code R brut disponible [ici](https://raw.githubusercontent.com/VinceLYO/Geocodag
 ###Outils :
 ####- [R Studio](https://www.rstudio.com/)
 ####- [IBM SPSS Modeler](http://www-03.ibm.com/software/products/fr/spss-modeler)
-####- [ScreenToGif](http://screentogif.codeplex.com/) <- :heart:
+####- [ScreenToGif](http://screentogif.codeplex.com/) :arrow_left: :heart:
