@@ -1,7 +1,9 @@
 # Géocodage d'adresses en France avec R et SPSS Modeler
-<a href="url"><img src= "https://raw.githubusercontent.com/VinceLYO/Geocodage/master/Files/Rlogo.png" align="center" height="45" width="55" ></a>
-<a href="url"><img src= "https://raw.githubusercontent.com/VinceLYO/Geocodage/master/Files/optima.gif" align="center" height="20" width="20" ></a>
-<a href="url"><img src= "https://raw.githubusercontent.com/VinceLYO/Geocodage/master/Files/spss.png" align="center" height="40" width="120" ></a>  
+<p align="center">
+    <a href="url"><img src= "https://raw.githubusercontent.com/VinceLYO/Geocodage/master/Files/Rlogo.png" align="center" height="45" width="55" ></a>
+    <a href="url"><img src= "https://raw.githubusercontent.com/VinceLYO/Geocodage/master/Files/optima.gif" align="center" height="20" width="20" ></a>
+    <a href="url"><img src= "https://raw.githubusercontent.com/VinceLYO/Geocodage/master/Files/spss.png"  class="centerImage" align="center" height="40" width="120" ></a>
+</p>
 
 ###Desciption :
 Ce nœud vous permettra de géocoder des adresses <b>en France</b>, en utilisant l'API de la Base Adresse Nationale, résultat de la collaboration de La Poste / L'IGN / Open Street Map et des services de l'état : http://adresse.data.gouv.fr/api/
