@@ -135,8 +135,8 @@ Si vous êtes en version 17/17.1 installez le <b>.cfd</b> disponible en téléch
 Si vous êtes en version 18 , installez le <b>.mpe</b> disponible en téléchargement [ici](https://github.com/VinceLYO/TEST/blob/master/Geocodage_DataGouv.mpe?raw=true)  
 Code R brut disponible [ici](https://raw.githubusercontent.com/VinceLYO/Geocodage/master/R%20DataGouv%20MODELER.r)
 
-###Outils :
-####- [R Studio](https://www.rstudio.com/)
-####- [IBM SPSS Modeler](http://www-03.ibm.com/software/products/fr/spss-modeler)
-####- [ScreenToGif](http://screentogif.codeplex.com/) :arrow_left: :heart:
-####- [Notepad ++](https://notepad-plus-plus.org/fr/)
+###Outils utilisés :
+#####- [R Studio](https://www.rstudio.com/)
+#####- [IBM SPSS Modeler](http://www-03.ibm.com/software/products/fr/spss-modeler)
+#####- [ScreenToGif](http://screentogif.codeplex.com/) :arrow_left: :heart:
+#####- [Notepad ++](https://notepad-plus-plus.org/fr/)
