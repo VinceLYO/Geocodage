@@ -1,6 +1,6 @@
 # Géocodage d'adresses en France avec R et SPSS Modeler
 <p align="center">
-    <a href="url"><img src= "https://raw.githubusercontent.com/VinceLYO/Geocodage/master/Files/Rlogo.png" align="center" height="20" width="20" ></a> 
+    <a href="url"><img src= "https://raw.githubusercontent.com/VinceLYO/Geocodage/master/Files/Rlogo.png" align="center" height="60" width="60" ></a> 
     <a href="url"><img src= "https://raw.githubusercontent.com/VinceLYO/Geocodage/master/Files/spss.png"  class="centerImage" align="center" height="40" width="120" ></a>
 </p>
 
