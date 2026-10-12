@@ -91,7 +91,7 @@ modelerData<-cbind(modelerData,results$long)
 var2<-c(fieldName="Longitude_result",fieldLabel="",fieldStorage="string",fieldFormat="",fieldMeasure="",  fieldRole="")
 modelerDataModel<-data.frame(modelerDataModel,var2)
 ```
-###Interface
+### Interface
 Lecture du champ "Adresses" qui contient :
 - Le numéro de voie
 - La voie
@@ -102,7 +102,7 @@ Exemple : 17 rue de la Mairie 11300 Limoux
 
 ![alt tag](https://raw.githubusercontent.com/VinceLYO/TEST/master/Files/Capture_1.JPG)
 
-###Sorties :
+### Sorties :
 ![alt tag](https://raw.githubusercontent.com/VinceLYO/Geocodage/master/Files/Capture_3.JPG)  
 - Latitude_result
 - Longitude_result
@@ -120,19 +120,19 @@ Exemple : 17 rue de la Mairie 11300 Limoux
 
 ![alt tag](https://raw.githubusercontent.com/VinceLYO/TEST/master/Files/Capture_2.JPG)
 
-###Installation
+### Installation
 
 - SPSS Modeler 17 ou plus
 - [IBM SPSS Modeler 'R Essentials' Plugin](https://developer.ibm.com/predictiveanalytics/downloads/)
 - [R 3.1 / R 3.2](https://developer.ibm.com/predictiveanalytics/downloads/)
 
-#####R Packages :
-######1 - Installer les packages suivant dans l'environnement 3.1 ou 3.2 de R
+##### R Packages :
+###### 1 - Installer les packages suivant dans l'environnement 3.1 ou 3.2 de R
 - [Jsonlite](https://cran.r-project.org/web/packages/jsonlite/index.html)  
 - [Bitops](https://cran.r-project.org/web/packages/bitops/index.html)  
 - [RCurl](https://cran.r-project.org/web/packages/RCurl/index.html)  
 
-######2- Installer le noeud directement dans modeler
+###### 2- Installer le noeud directement dans modeler
 Si vous êtes en version 17/17.1 installez le <b>.cfd</b> disponible en téléchargement [ici](https://github.com/VinceLYO/TEST/blob/master/GeocodageDataGouv.cfd?raw=true)   
 Si vous êtes en version 18 , installez le <b>.mpe</b> disponible en téléchargement [ici](https://github.com/VinceLYO/TEST/blob/master/Geocodage_DataGouv.mpe?raw=true)  
 Code R brut disponible [ici](https://raw.githubusercontent.com/VinceLYO/Geocodage/master/R%20DataGouv%20MODELER.r)
